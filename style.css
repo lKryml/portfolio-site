@@ -222,11 +222,18 @@ width: 100%;
     overflow: hidden;
     border-radius: 10px;
 }
+.scrim{
+    object-fit:scale-down;
+}
 .work img{
+    
     width: 100%;
+    height:100%;
     border-radius: 10px;
     display:block;
     transition: 0.5s;
+    
+
 }
 .layer{
     width:100%;
@@ -359,4 +366,20 @@ form .btn2{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+
+.experience-git{
+    text-decoration: underline whitesmoke;
+    color: #ababab;
+    display:inline-block;
+    transition: 0.5s;
+    
+    
+}
+
+.experience-git:hover{
+
+    color: #ff004f;
+    transform:translateY(-2px);
+    text-decoration:none;
 }
